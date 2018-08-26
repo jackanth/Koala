@@ -1,5 +1,4 @@
 ![Graph example](./screenshots/graph.svg)
-<img src="./screenshots/graph.svg">
 
 # Koala
 
