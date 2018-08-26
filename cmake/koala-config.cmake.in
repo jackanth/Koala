@@ -1,0 +1,10 @@
+@PACKAGE_INIT@
+
+set(koala_VERSION @koala_VERSION@)
+set_and_check(koala_INCLUDE_DIR "@PACKAGE_INCLUDE_INSTALL_DIR@")
+set_and_check(koala_TARGETS_FILE_PATH "@PACKAGE_EXPORT_TARGETS_FILE_PATH@")
+
+message(STATUS "Found koala include dir: ${koala_INCLUDE_DIR}")
+message(STATUS "Found koala targets: ${koala_TARGETS_FILE_PATH}")
+
+mark_as_advanced(koala_INCLUDE_DIR)
