@@ -1,7 +1,0 @@
----
-Language:          Cpp
-BasedOnStyle:      Google
-BreakBeforeBraces: Allman
-ColumnLimit:       100
-IndentWidth:       4
-AccessModifierOffset: -4
