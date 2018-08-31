@@ -1,4 +1,4 @@
-![Graph example](./screenshots/graph.svg)
+![Koala](images/koala.png)
 
 # Koala
 
@@ -33,7 +33,8 @@ make install
 ```
 
 ## Example code
-To reproduce the family tree graph at the top of this document, the following code can be run from within the test algorithm:
+![Graph example](./images/graph.svg)
+To reproduce the family tree graph above, the following code can be run from within the test algorithm:
 ```C++
 // Define members.
 auto &brother = KL_CREATE_BY_ALIAS(TestObject, "Brother");
